@@ -9764,14 +9764,14 @@ a.button {
     margin-top: env(safe-area-inset-top); }
 
 .platform-ios.platform-cordova:not(.fullscreen) .bar-header {
-  padding-left: -moz-calc( constant(safe-area-inset-left) + 5px);
-  padding-left: calc( constant(safe-area-inset-left) + 5px);
+  padding-left: -moz-calc( constant(safe-area-inset-left) + 5px);
+  padding-left: calc( constant(safe-area-inset-left) + 5px);
   padding-left: -moz-calc(env(safe-area-inset-left) + 5px);
   padding-left: calc(env(safe-area-inset-left) + 5px);
-  padding-right: -moz-calc( constant(safe-area-inset-right) + 5px);
-  padding-right: calc( constant(safe-area-inset-right) + 5px);
-  padding-right: -moz-calc( env(safe-area-inset-right) + 5px);
-  padding-right: calc( env(safe-area-inset-right) + 5px); }
+  padding-right: -moz-calc( constant(safe-area-inset-right) + 5px);
+  padding-right: calc( constant(safe-area-inset-right) + 5px);
+  padding-right: -moz-calc( env(safe-area-inset-right) + 5px);
+  padding-right: calc( env(safe-area-inset-right) + 5px); }
   .platform-ios.platform-cordova:not(.fullscreen) .bar-header .buttons:last-child {
     right: -moz-calc(constant(safe-area-inset-right) + 5px);
     right: calc(constant(safe-area-inset-right) + 5px);
@@ -10111,7 +10111,7 @@ a.button {
        transition-duration: 0s; }
 
 .platform-ios .bar-header {
-  background: rgba(51, 51, 51, 0.9); }
+  background: yellow; }
   .platform-ios .bar-header .title {
     color: cyan;
     font-weight: bold; }
